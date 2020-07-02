@@ -1,0 +1,23 @@
+{
+    "plugins": ["prettier", "codeceptjs"],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "codeceptjs/codeceptjs": true
+    },
+    "rules": {
+        "no-console": "error",
+        "no-shadow": "off",
+        "no-underscore-dangle": "off",
+        "quotes": ["error", "single"],
+        "no-confusing-arrow": "off",
+        "prettier/prettier": ["error"]
+    },
+    "globals": {
+        "When": "readonly",
+        "Given": "readonly",
+        "Then": "readonly"
+    },
+    "extends": ["eslint-config-airbnb", "prettier"]
+}

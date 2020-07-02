@@ -1,0 +1,55 @@
+{
+  "name": "planner-ui-tests",
+  "version": "1.0.0",
+  "description": "Репозиторий с тестами для Planner UI на codecept.js",
+  "main": "codecept.conf.js",
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "chai": "^4.2.0",
+    "codeceptjs": "^2.6.5",
+    "dotenv": "^8.2.0",
+    "eslintrc": "^1.0.6",
+    "fs": "0.0.1-security",
+    "moment": "^2.26.0",
+    "node-fetch": "^2.6.0",
+    "pg": "^7.18.2",
+    "rp": "^0.2.0",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-codeceptjs": "^1.3.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "puppeteer": "^1.20.0"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix",
+    "test": "codeceptjs run"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://m.dmitryeva@bitbucket.infotech.team/projects/TT/repos/planner-ui-tests.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
