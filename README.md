@@ -2,7 +2,7 @@
 
 ### Содержание
 
-1.  [Ссылки на требования](#ссылки-на-требования)
+1.  [Ссылки на требования]
 2.  [Предустановленные компоненты](#предустановленные-компоненты)
 3.  [Установка](#установка)
 4.  [Переменные окружения](#переменные-окружения)
@@ -16,7 +16,6 @@
 
 ### Ссылки на требования
 
-https://docs.google.com/spreadsheets/d/1DmrqplM-9yWCZcDPQiPcmutTiffcNm2D0Kx3cMEaJ6E/edit#gid=0
 
 ### Предустановленные компоненты
 
@@ -25,7 +24,7 @@ https://docs.google.com/spreadsheets/d/1DmrqplM-9yWCZcDPQiPcmutTiffcNm2D0Kx3cMEa
 ### Установка
 
 ```
-git clone ssh://git@bitbucket.infotech.team:7999/tt/planner-ui-tests.git
+git clone 
 cd planner-ui-tests
 npm i
 ```
