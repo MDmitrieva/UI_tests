@@ -6,7 +6,7 @@
   "dependencies": {
     "allure-commandline": "^2.13.0",
     "chai": "^4.2.0",
-    "codeceptjs": "^2.6.5",
+    "codeceptjs": "^3.0.0",
     "dotenv": "^8.2.0",
     "eslintrc": "^1.0.6",
     "fs": "0.0.1-security",
